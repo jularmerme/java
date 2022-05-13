@@ -1,0 +1,7 @@
+package collections.java.examples;
+
+import java.util.*;
+
+public class ArrayListExamples {
+	ArrayList<Integer> al = ArrayList<Integer>();
+}

@@ -1,0 +1,15 @@
+import org.junit.Test;
+import org.junit.Assert;
+
+import com.revature.User;
+
+public class UserTest {
+	
+	User user = new User();
+	
+	// This is a positive test case
+	@Test
+	public void testUserWithName() {
+		assertEquals("User " + user + " is added successfully!!!.", user.addUser("Bob"));
+	}
+}

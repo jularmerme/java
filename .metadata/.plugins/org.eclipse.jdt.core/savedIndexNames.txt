@@ -1,0 +1,16 @@
+INDEX VERSION 1.131+C:\Users\Julian\Documents\sprint-workspace\.metadata\.plugins\org.eclipse.jdt.core
+1874535009.index
+1148619582.index
+3469171776.index
+158440297.index
+2742212151.index
+2155498693.index
+393995163.index
+3365331919.index
+1865797976.index
+370747163.index
+997578390.index
+2857958046.index
+1754409098.index
+2472080875.index
+663909014.index

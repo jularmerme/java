@@ -1,0 +1,13 @@
+import org.junit.Test;
+
+import com.revature.User;
+
+public class UserTest {
+	
+	User user = new User();
+	
+	@Test
+	public void testUserWithName() {
+		
+	}
+}
