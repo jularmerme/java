@@ -10,7 +10,7 @@ import com.revature.models.User;
 
 public class UserServiceImpl implements UserService {
 	
-	public File createConnection() throws CustomFileException {
+	public File createDBConnection() throws CustomFileException {
 		// 1. Create a test file
 		File myFile = new File("users.txt");
 		try {
@@ -33,8 +33,8 @@ public class UserServiceImpl implements UserService {
 		// User tom = new User(1, "tom", "password","Tom","Thumub","tom.thumb@gmail.com");
 		try {
 			
-			// 1. Serialize our user
-			FileOutputStream output = new FileOutputStream(createConnection());
+			// 1. Serialize our user(convert user to array)
+			FileOutputStream output = new FileOutputStream(createDBConnection());
 			
 			// 2. Write that binary data into our text file
 			output.write(u.toString().getBytes());
@@ -42,6 +42,7 @@ public class UserServiceImpl implements UserService {
 			// 3. Print successful addition message
 			System.out.println("New user has been created");
 			
+			// Close the file
 			output.close();
 			
 		} catch (FileNotFoundException e) {

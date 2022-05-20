@@ -1,0 +1,1 @@
+User [id=1, username=J2m-force, password=password, firstName=Julian, lastName=Mercado, email=jmercado@gmail.com]
