@@ -17,6 +17,21 @@ public class UserDriver {
 
 		Scanner sc = new Scanner(System.in);
 		
+		User target = registerUser();
+		
+		char answer = sc.next().charAt(0);
+		
+		if(answer == 'y' || answer == 'Y') {
+			userService.addUser(target);
+		} else {
+			registerUser();
+			answer = sc.next().charAt(0);
+		}
+	}
+	
+	public static User registerUser() {
+		Scanner sc = new Scanner(System.in);
+		
 		System.out.println("Welcome user!. \nPlease register for our app.");
 		
 		System.out.print("Enter Id: ");
@@ -39,11 +54,7 @@ public class UserDriver {
 		
 		System.out.print(String.format("Is this information correct? \nID: %d\nUsername: %s\nFirst Name: %s\nLast Name: %s\nEmail: %s\nPassword: %s", id, username, firstName, lastName, email, password));
 		
-		char answer = sc.next().charAt(0);
-		
-		if(answer == 'y') {
-			userService.addUser(new User(id, username, password, firstName, lastName, email));
-		}
+		return new User(id, username, password, firstName, lastName, email);
 	}
 
 }
