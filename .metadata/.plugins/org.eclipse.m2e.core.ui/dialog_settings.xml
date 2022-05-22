@@ -2,6 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Julian\Documents\java-workspace-sts\HelloMockitoMaven"/>
+			<item value="C:\Users\Julian\Documents\java-workspace-sts\BattleOfArrayList"/>
+			<item value="C:\Users\Julian\Documents\java-workspace-sts\HelloMockito_Maven"/>
+			<item value="C:\Users\Julian\Documents\java-workspace-sts\HelloPOJO"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -46,10 +50,17 @@
 			<item value="com.revature"/>
 		</list>
 		<list key="name">
+			<item value="HelloSpring"/>
+			<item value="HelloMockitoMaven"/>
+			<item value="HelloSpringMVC"/>
+			<item value="HelloSpring MVC"/>
 			<item value="HelloHibernate"/>
 			<item value="HelloJacoco"/>
 		</list>
 		<list key="artifactId">
+			<item value="HelloSpring"/>
+			<item value="HelloMockitoMaven"/>
+			<item value="HelloSpringMVC"/>
 			<item value="HelloHibernate"/>
 			<item value="HelloJacoco"/>
 		</list>
